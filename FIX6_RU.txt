@@ -1,0 +1,17 @@
+Исправление Fix 6 для Minecraft 1.21.11 / Yarn 1.21.11+build.6
+
+Причина предыдущей ошибки:
+PositionedSoundInstance.master(SoundEvent, float, float) в Yarn 1.21.11+build.6 больше не существует. Метод называется ui(...).
+
+В InterstellarExperienceClient.java оба вызова звука исправлены на:
+PositionedSoundInstance.ui(TESSERACT_QUOTE, 0.88f, 0.96f)
+
+Как применить:
+1. Откройте в GitHub файл src/main/java/dev/afanasy/interstellar/client/InterstellarExperienceClient.java.
+2. Нажмите Edit (карандаш), выделите всё содержимое и замените содержимым файла InterstellarExperienceClient-Fix6.java.
+3. Commit changes.
+4. Откройте Actions и дождитесь результата.
+
+Или замените весь репозиторий файлами из архива Fix6-Source.zip.
+
+Параметры ui: сначала pitch (0.88), затем volume (0.96).
