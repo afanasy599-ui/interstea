@@ -3,7 +3,7 @@
   "id": "interstellar_experience",
   "version": "${version}",
   "name": "Interstellar Experience",
-  "description": "Client-side cinematic Tesseract: records local world snapshots and displays them as a multidimensional time structure.",
+  "description": "Client-side cinematic 3D Tesseract: a floating voxel astronaut travels through repeated 3D echoes of the captured Minecraft world.",
   "authors": ["Afanasy"],
   "contact": {},
   "license": "MIT",
